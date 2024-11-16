@@ -1,0 +1,152 @@
+/* Mengatur margin, padding, dan box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Pengaturan body */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Pengaturan header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d2d2af;
+    padding: 20px;
+}
+
+/* Pengaturan logo di header */
+header .logo {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .logo img {
+    width: 70%;
+    height: auto;
+    object-fit: contain;
+}
+
+/* Pengaturan menu navigasi */
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Pengaturan main content */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.insight-section {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+/* Pengaturan blok insight */
+.insight-block {
+    background-color: #fff;
+    padding: 20px;
+    width: 50%;
+    border: 1px solid #ddd;
+}
+
+/* Pengaturan heading di insight block */
+.insight-block h2 {
+    font-family: 'Georgia', serif;
+    font-size: 24px;
+    color: #4d6849;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Pengaturan map */
+.map {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.map img {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+/* Pengaturan tombol View Map */
+.view-map-button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background-color: #4d6849;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.view-map-button:hover {
+    background-color: #3c5237;
+}
+
+/* Pengaturan paragraf description */
+.description {
+    text-align: justify;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+/* Pengaturan footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #d2d2af;
+}
+
+/* Menambahkan spasi antara paragraf dan gambar */
+.insight-block .map {
+    margin-top: 20px;
+}
+
+.map img {
+    width: 100%;
+    height: auto;
+}
+
+/* Pengaturan untuk paragraf dan heading */
+.insight-block .description {
+    line-height: 1.8;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.insight-block h2 {
+    margin-top: 20px;
+}

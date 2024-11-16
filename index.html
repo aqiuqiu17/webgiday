@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="images/EAST LOGO.png" alt="Logo"> <!-- Ganti dengan path ke logo -->
+        </div>
+        <h1>EAST PROJECT</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html" id="home" onclick="showSection('home')">Home</a></li>
+                <li><a href="https://aqiuqiu17.github.io/gdayswebgiss/" id="mapLink" onclick="showSection('Map')">Map</a></li>
+                <li><a href="insight.html" id="insightLink" onclick="showSection('Insight')">Insight</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h3>Development of a Malaria Susceptibilty Prediction Model in Papua for 2030 through the Integration of Geospatial Data Using WebGIS - Based Machine Learning </h3>
+            <p></p>
+            <p class="members">
+                Mentari Khoerunnisa Azzahra | Aldi Firdiansyah | Fadilla As-syifa Ferbiana | Anjar Dimara Sakti<br>
+                Bandung Institute of Technology | Geodesy and Geomatics Engineering
+            </p>
+            <!-- Tombol View Map -->
+            <a href="https://aqiuqiu17.github.io/gdayswebgiss/">
+                <button class="view-map">View Map</button>
+            </a>            
+
+            <!-- Galeri gambar -->
+            <div class="image-gallery">
+                <img src="images/Bivariate Map Malaria Cases & MSI 2020.jpeg" alt="Image 1">
+                <img src="images/Bivariate Map Malaria Cases & MSI 2023.jpeg" alt="Image 2">
+                <img src="images/Malaria RIsk Map 2020.jpeg" alt="Image 3">
+                <img src="images/Malaria Risk Map Papua 2030.jpeg" alt="Image 4">
+                <img src="images/Malaria Susceptibility Index Papua 2023.jpeg" alt="Image 5">
+                <img src="images/Malaria Susceptibility Index Papua 2030.jpeg" alt="Image 6">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 East Website. All Rights Reserved.</p>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
